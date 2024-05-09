@@ -1,0 +1,4 @@
+*.log
+last-key.txt
+__pycache__
+.idea
