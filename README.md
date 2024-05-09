@@ -1,6 +1,7 @@
 # perchance-image-generator
-perchange.org提供了免费文生图服务，但是没有提供API，该脚本通过API方式调用  [Perchance's free AI image generator](https://perchance.org/image-generator-professional)
-，支持生成NSFW图片，请不要用于黑灰产
+perchance.org提供了免费文生图服务，但是没有提供API，该脚本通过API方式调用  [Perchance's free AI image generator](https://perchance.org/image-generator-professional)
+，支持生成NSFW图片
+## 免责声明：本工具仅用于文生图效果评测，请不要用于黑灰产，由此造成的后果，本人概不负责
 ## Dependencies
 Check `requirements.txt`. 
 可以添加自定义关键词 `wordlist.py` wordlist或自定义风格 `styles.py` 
