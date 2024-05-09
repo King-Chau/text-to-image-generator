@@ -11,6 +11,8 @@ Check `requirements.txt`.
 ```
 python main.py -f newimage -n 10 -p "A Japanese school girl walks at night, in Tokyo street, rainy, neon lights" --style realistic
 ```
+图片：
+![Japanese girl](./generated-pictures/newimage1.jpeg "japanese girl")
 
 ## CLI Guide
 ```
