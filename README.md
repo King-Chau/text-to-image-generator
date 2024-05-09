@@ -1,5 +1,5 @@
 # text-to-image-generator
-perchance.org提供了免费文生图服务，但是没有提供API，该脚本模拟页面操作，通过API方式调用  [Perchance's free AI image generator](https://perchance.org/image-generator-professional)
+perchance.org提供了免费文生图服务，但是没有提供API。该脚本模拟页面操作获取AccessCode，然后通过API方式调用  [Perchance's free AI image generator](https://perchance.org/image-generator-professional)
 ，支持生成NSFW图片
 ## 免责声明：本工具仅用于文生图效果评测，请不要用于黑灰产，由此造成的后果，本人概不负责
 ## Dependencies
