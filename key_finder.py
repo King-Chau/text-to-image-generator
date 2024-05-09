@@ -18,8 +18,8 @@ async def get_url_data():
             url_data.append(request.url)
 
         page.on("request", request_handler)  # capture traffic
-
-        await page.goto('https://perchance.org/ai-text-to-image-generator')
+        # Generator链接
+        await page.goto('https://perchance.org/image-generator-professional')
 
         iframe_element = await page.query_selector('xpath=//iframe[@src]')
         frame = await iframe_element.content_frame()

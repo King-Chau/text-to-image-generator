@@ -28,7 +28,9 @@ def image_generator(
         resolution='512x768',
         guidance_scale=7
 ):
+    # 图片生成API
     create_url = 'https://image-generation.perchance.org/api/generate'
+    # 图片下载API
     download_url = 'https://image-generation.perchance.org/api/downloadTemporaryImage'
 
     if prompt == 'RANDOM':
