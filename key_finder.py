@@ -8,6 +8,7 @@ import asyncio
 
 async def get_url_data():
     url_data = []
+    # 依赖firefox和playright，模拟页面操作
     async with async_playwright() as p:
         browser = await p.firefox.launch(headless=True)
         page = await browser.new_page()
