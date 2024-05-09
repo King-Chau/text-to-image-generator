@@ -8,7 +8,7 @@ Check `requirements.txt`.
 ## About
 调用脚本
 ```
-python main.py -f newimage -n 3 -p "beautiful Japanese girl walking in Tokyo street, rainy, neon lights" --style cinematic
+python main.py -f newimage -n 3 -p "A Japanese school girl walking in the street with cherry blossom,  high quality image, 4k, 8k, HD, UHD, Sharp Focus, In Frame" -np "low quality, deformed, blurry, bad art, drawing, painting, horrible resolutions, low DPI, low PPI, blurry, glitch, error"
 ```
 
 ## CLI Guide
