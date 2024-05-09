@@ -1,5 +1,5 @@
 from wordlist import MyWordlist
-from key_finder import get_key
+from access_code_finder import get_access_code
 import random
 import requests
 from styles import styles
@@ -55,7 +55,7 @@ def image_generator(
     info_logger.info(f'Selected prompt {prompt_base} and style {style_choice}')
 
     for idx in range(1, amount+1):
-        user_key = get_key()
+        user_key = get_access_code()
         request_id = random.random()
         cache_bust = random.random()
 

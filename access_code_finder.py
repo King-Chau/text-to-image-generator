@@ -6,6 +6,7 @@ from random import random as uniform
 import asyncio
 
 
+# 获取Access Code
 async def get_url_data():
     url_data = []
     # 依赖firefox和playright，模拟页面操作
@@ -42,11 +43,7 @@ async def get_url_data():
     return key
 
 
-def get_key():
-    """
-    1. verify key in last_key.txt if there is one
-    2. if not, find one through sending a request
-    """
+def get_access_code():
 
     key = None
     with open('last-key.txt', 'a+') as file:
